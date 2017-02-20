@@ -1,0 +1,10 @@
+framework module TestCarthageProto {
+  umbrella header "TestCarthageProto.h"
+
+  export *
+  module * { export * }
+}
+
+module TestCarthageProto.Swift {
+    header "TestCarthageProto-Swift.h"
+}
